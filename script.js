@@ -221,10 +221,10 @@ gsap.to("#Menma", {
     start: "top 180",
     end: "+=280",
     scrub: true,
-    onEnter: () => (changeText("Menma", " Arashi Uchiha"), ajusterLargeur("#Menma", "100%")),
-    onLeave: () => (changeText("Menma", "Caractère Arashi Uchiha"), ajusterLargeur("#Menma", "150%")), 
-    onEnterBack: () => changeText("Menma", "Caractère Arashi Uchiha"),
-    onLeaveBack: () => (changeText("Menma", "Arashi Uchiha"), ajusterLargeur("#Menma", "100%")),
+    onEnter: () => (changeText("Menma", " Arajin Hoshigaki"), ajusterLargeur("#Menma", "100%")),
+    onLeave: () => (changeText("Menma", "Caractère Arajin Hoshigaki"), ajusterLargeur("#Menma", "150%")), 
+    onEnterBack: () => changeText("Menma", "Caractère Arajin Hoshigaki"),
+    onLeaveBack: () => (changeText("Menma", "Arajin Hoshigaki"), ajusterLargeur("#Menma", "100%")),
   }
 });
 
